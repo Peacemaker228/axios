@@ -1,0 +1,28 @@
+.main__container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 30px;
+}
+
+.main__items {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px 20px;
+  box-shadow: 0 0 5px 2px black;
+  border-radius: 20px;
+}
+
+.main__items span {
+  font-size: 25px;
+}
+
+.main__items p {
+  font-size: 20px;
+}
+
+.main__items button {
+  line-height: 30px;
+  width: 100px;
+}
